@@ -30,12 +30,12 @@ GEM
       rdf (~> 3.2)
     link_header (0.0.8)
     matrix (0.4.2)
-    mini_portile2 (2.8.1)
+    mini_portile2 (2.8.8)
     multi_json (1.15.0)
-    nokogiri (1.14.0)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.15.7)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    racc (1.6.2)
+    racc (1.8.1)
     rack (2.2.6.3)
     rake (13.0.6)
     rdf (3.2.9)
@@ -96,7 +96,7 @@ DEPENDENCIES
   equivalent-xml
   json-ld
   json-ld-preloaded
-  nokogiri
+  nokogiri (>= 1.15.7)
   rake
   rdf-microdata
   rdf-rdfa
